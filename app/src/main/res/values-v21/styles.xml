@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="ThemeForCuckoo" parent="android:Theme.Holo.NoActionBar">
-        <!-- Customize your theme here. -->>
+    <style name="ThemeForCuckoo" parent="android:Theme.Holo.NoActionBar" >
+        <item name="android:colorPrimary">@color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
         <item name="android:colorBackground">@color/primary_material_dark</item>
         <item name="android:windowBackground">@color/primary_material_dark</item>
         <item name="android:textColorSecondary">@android:color/secondary_text_dark</item>
@@ -10,5 +12,4 @@
         <item name="android:textColorPrimary">@android:color/secondary_text_dark</item>
         <item name="android:textColorPrimaryInverse">@android:color/secondary_text_dark</item>
     </style>
-
 </resources>
