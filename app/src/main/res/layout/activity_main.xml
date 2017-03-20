@@ -11,7 +11,23 @@
     tools:context="com.maximfursov.cuckoo.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!4" />
+        android:id="@+id/textView_ActivityMain_textAboutTheProgram"
+        android:text="@string/Text_AboutTheProgram"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"/>
+
+    <ImageButton
+        android:src="@drawable/imageButton_activityMain_goToStart"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton_ActivityMain_start"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:layout_below="@+id/textView_ActivityMain_textAboutTheProgram"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
 </RelativeLayout>
