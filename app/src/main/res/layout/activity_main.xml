@@ -21,7 +21,7 @@
         android:layout_marginTop="43dp"/>
 
     <ImageButton
-        android:src="@drawable/imageButton_activityMain_goToStart"
+        android:src="@drawable/imagebuttonactivitymaingotostart"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/imageButton_ActivityMain_start"
@@ -29,5 +29,6 @@
         android:contentDescription="@null"
         android:layout_below="@+id/textView_ActivityMain_textAboutTheProgram"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:background="@null"/>
 </RelativeLayout>
